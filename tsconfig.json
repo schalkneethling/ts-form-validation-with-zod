@@ -1,0 +1,3 @@
+{
+  "extends": "./.project-calavera/tsconfig.json"
+}

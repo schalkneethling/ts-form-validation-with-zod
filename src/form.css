@@ -1,0 +1,38 @@
+.contact-form,
+.form-group {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.contact-form {
+  gap: 1rem;
+
+  [type="email"],
+  [type="tel"],
+  [type="text"],
+  textarea {
+    padding: 0.5rem;
+  }
+}
+
+.optional-text {
+  font-size: 0.8rem;
+}
+
+.error-message {
+  background-color: darkred;
+  border: 0.125rem solid red;
+  color: white;
+
+  p {
+    margin: 0;
+    padding: 0.5rem;
+  }
+}
+
+.success-message {
+  background-color: darkgreen;
+  border: 0.125rem solid green;
+  color: white;
+  padding: 0.5rem;
+}
